@@ -36,12 +36,14 @@
    git clone https://github.com/cindy-99/MyProject_50.git
    cd flower-management-system
 ## 📁 项目结构
-text
+
+```text
 FlowerManagementSystem/
 ├── src/
 │   └── FlowerManagementSystem.java  # 主程序文件
 ├── README.md                        # 项目说明文档
 └── FlowerManagementSystem.jar       # 可执行JAR文件
+```
 
 ## 💻 使用指南
 运行程序后，您将看到以下菜单选项：
