@@ -13,6 +13,7 @@ FlowerManagementSystem_XX/
 ├── LICENSE
 ├── README.md
 └── CONTRIBUTING.md
+
 📄 许可证
 本项目采用 MIT 许可证 - 查看 LICENSE 文件了解详情。
 
@@ -28,47 +29,17 @@ feature/*: 功能分支，开发新功能
 
 hotfix/*: 热修复分支，紧急修复bug
 
-分支操作记录
-bash
-# 创建开发分支
-git checkout -b develop
-
-# 开发新功能
-git checkout -b feature/add-flower-crud
-# 开发完成后合并到develop
-git checkout develop
-git merge feature/add-flower-crud
-
-# 修复bug
-git checkout -b hotfix/fix-search-bug
-# 修复完成后合并到develop和main
-git checkout develop
-git merge hotfix/fix-search-bug
-git checkout main
-git merge hotfix/fix-search-bug
-解决冲突示例
-在合并分支时遇到冲突：
-
-java
-// 冲突示例：两个分支都修改了同一行代码
-<<<<<<< HEAD
-private ArrayList<Flower> flowerList = new ArrayList<>();
-=======
-private List<Flower> flowerList = new ArrayList<>();
->>>>>>> feature/refactor-code
-解决方案：选择更优的实现方式，保留接口编程原则。
 🚀 快速开始
 环境要求
 JDK 8+
-
 Git
-
 安装运行
 bash
 git clone https://github.com/your-username/FlowerManagementSystem_50.git
 cd FlowerManagementSystem_50
 javac src/FlowerManagementSystem_50.java
 java src/FlowerManagementSystem_50
+
 📄 许可证
 本项目采用 MIT 许可证
 👨‍💻 开发者
