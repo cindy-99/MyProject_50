@@ -33,7 +33,7 @@
 
 1. **下载项目**
    ```bash
-   git clone https://github.com/your-username/flower-management-system.git
+   git clone https://github.com/cindy-99/MyProject_50.git
    cd flower-management-system
 ## 📁 项目结构
 FlowerManagementSystem_50/
@@ -57,4 +57,4 @@ text
 ## 📞 联系方式
 开发者：cindy
 邮箱： cindy3927826@qq.com
-项目链接：https://github.com/your-username/flower-management-system
+项目链接：https://github.com/cindy-99/MyProject_50.git
